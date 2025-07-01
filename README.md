@@ -7,4 +7,4 @@
 #### "Sets hideBrowserUpgradeBox cookie on YouTube.user.js" [![Install directly with a userscript manager](https://img.shields.io/badge/install-userscript-brightgreen)](https://github.com/oshirinap/myuserscripts/raw/main/Sets%20hideBrowserUpgradeBox%20cookie%20on%20YouTube.user.js)
  Greasemonkey/Tampermonkey userscript, especially **for outdated browsers**. Sets the _hideBrowserUpgradeBox=true_ cookie on _.youtube.com_ to supress 
 _"https://www.youtube.com/supported_browsers?next_url="_ nag pages.
- Also, automatically redirects to the _next_url=[VIDEO_URL]_. It is useful if you frequently delete cookies.
+ Also, automatically redirects to the _next_url=[VIDEO_URL]_. It may useful if you frequently delete cookies.
