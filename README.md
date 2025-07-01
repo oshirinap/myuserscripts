@@ -1,10 +1,10 @@
 
-#### "YouTube URL Normalizer.user.js" [![Install directly with a userscript manager](https://img.shields.io/badge/install-userscript-brightgreen)](https://github.com/oshirinap/myuserscripts/raw/refs/heads/main/YouTube%20URL%20Normalizer.user.js)
+#### "YouTube URL Normalizer.user.js" [![Install directly with a userscript manager](https://img.shields.io/badge/install-userscript-brightgreen)](https://github.com/oshirinap/myuserscripts/raw/main/YouTube%20URL%20Normalizer.user.js)
  Greasemonkey/Tampermonkey userscript that normalizes any YouTube URLs into the canonical _https://www.youtube.com/watch?v=[VIDEO_ID]_ format. Works on **outside** of YouTube.
- 1. Matches regex `(?:youtube(?:-nocookie)?\.com\/(?:[^\/\n\s]+\/\S+\/|(?:v|embed|shorts)\/|\S*?[?&]v=)|youtu\.be\/)([a-zA-Z0-9_-]{11})`
+ 1. If matches regex: `(?:youtube(?:-nocookie)?\.com\/(?:[^\/\n\s]+\/\S+\/|(?:v|embed|shorts)\/|\S*?[?&]v=)|youtu\.be\/)([a-zA-Z0-9_-]{11})`
  2. Redirects navigation in the browser (window location).
  3. Rewrites URLs in AJAX requests (XMLHttpRequest and fetch).
-#### "Sets hideBrowserUpgradeBox cookie on YouTube.user.js" [![Install directly with a userscript manager](https://img.shields.io/badge/install-userscript-brightgreen)](https://github.com/oshirinap/myuserscripts/raw/refs/heads/main/Sets%20hideBrowserUpgradeBox%20cookie%20on%20YouTube.user.js)
+#### "Sets hideBrowserUpgradeBox cookie on YouTube.user.js" [![Install directly with a userscript manager](https://img.shields.io/badge/install-userscript-brightgreen)](https://github.com/oshirinap/myuserscripts/raw/main/Sets%20hideBrowserUpgradeBox%20cookie%20on%20YouTube.user.js)
  Greasemonkey/Tampermonkey userscript, especially **for outdated browsers**. Sets the _hideBrowserUpgradeBox=true_ cookie on _.youtube.com_ to supress 
 _"https://www.youtube.com/supported_browsers?next_url="_ nag pages.
  Also, automatically redirect to the _next_url=[VIDEO_URL]_.
