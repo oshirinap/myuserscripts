@@ -9,6 +9,7 @@
 // @exclude      *://*.youtube-nocookie.com/*
 // @exclude      *://youtu.be/*
 // @grant        none
+// @license      MIT License
 // ==/UserScript==
 
 (function() {
