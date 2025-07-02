@@ -8,6 +8,7 @@
 // @match        *://*.youtube-nocookie.com/*
 // @match        *://youtu.be/*
 // @grant        none
+// @license      MIT License
 // ==/UserScript==
 
 (function() {
