@@ -1,4 +1,4 @@
-#### "Add Keepa Floating Button.user.js" [![Install directly with a userscript manager](https://img.shields.io/badge/install-userscript-brightgreen)]([Add Keepa Floating Button.user.js](https://github.com/oshirinap/myuserscripts/raw/main/Add%20Keepa%20Floating%20Button.user.js))
+#### "Add Keepa Floating Button.user.js" [![Install directly with a userscript manager](https://img.shields.io/badge/install-userscript-brightgreen)](https://github.com/oshirinap/myuserscripts/raw/main/Add%20Keepa%20Floating%20Button.user.js)
  Greasemonkey/Tampermonkey userscript that add a floating Keepa price history button to Amazon product pages. Japan, UK, US supported.
 #### "YouTube URL Normalizer.user.js" [![Install directly with a userscript manager](https://img.shields.io/badge/install-userscript-brightgreen)](https://github.com/oshirinap/myuserscripts/raw/main/YouTube%20URL%20Normalizer.user.js)
  Greasemonkey/Tampermonkey userscript that normalizes any YouTube _[VIDEO_URL]_ into the canonical _https://www.youtube.com/watch?v=[VIDEO_ID]_ format. Works on **outside** of YouTube.
