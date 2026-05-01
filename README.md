@@ -1,3 +1,5 @@
+#### "Chrome Web Store CRX Downloader.user.js" [![Install directly with a userscript manager](https://img.shields.io/badge/install-userscript-brightgreen)](https://github.com/oshirinap/myuserscripts/blob/main/Chrome%20Web%20Store%20CRX%20Downloader.user.js)
+Greasemonkey/Tampermonkey userscript that creates a floating button for directly downloading .crx (extensions) from Chrome Web Store.
 #### "Add Keepa Floating Button.user.js" [![Install directly with a userscript manager](https://img.shields.io/badge/install-userscript-brightgreen)](https://github.com/oshirinap/myuserscripts/raw/main/Add%20Keepa%20Floating%20Button.user.js)
  Greasemonkey/Tampermonkey userscript that adds a floating Keepa price history button to Amazon product pages. Japan, UK, and the US supported.
 #### "YouTube URL Normalizer.user.js" [![Install directly with a userscript manager](https://img.shields.io/badge/install-userscript-brightgreen)](https://github.com/oshirinap/myuserscripts/raw/main/YouTube%20URL%20Normalizer.user.js)
@@ -13,3 +15,4 @@ _"https://www.youtube.com/supported_browsers?next_url=[VIDEO_URL]"_ nags.
 #### License
 This repository is licensed under the [MIT License](LICENSE).
 Feel free to use, modify, and redistribute. No warranty is provided.
+🐌
