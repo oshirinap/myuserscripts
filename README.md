@@ -1,4 +1,4 @@
-#### "Chrome Web Store CRX Downloader.user.js" [![Install directly with a userscript manager](https://img.shields.io/badge/install-userscript-brightgreen)](https://github.com/oshirinap/myuserscripts/blob/main/Chrome%20Web%20Store%20CRX%20Downloader.user.js)
+#### "Chrome Web Store CRX Downloader.user.js" [![Install directly with a userscript manager](https://img.shields.io/badge/install-userscript-brightgreen)](https://github.com/oshirinap/myuserscripts/raw/main/Chrome%20Web%20Store%20CRX%20Downloader.user.js)
 Greasemonkey/Tampermonkey userscript that creates a floating button for directly downloading .crx (extensions) from Chrome Web Store.
 #### "Add Keepa Floating Button.user.js" [![Install directly with a userscript manager](https://img.shields.io/badge/install-userscript-brightgreen)](https://github.com/oshirinap/myuserscripts/raw/main/Add%20Keepa%20Floating%20Button.user.js)
  Greasemonkey/Tampermonkey userscript that adds a floating Keepa price history button to Amazon product pages. Japan, UK, and the US supported.
