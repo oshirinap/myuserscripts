@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Add Keepa Floating Button
 // @namespace    https://github.com/oshirinap
-// @version      0.2.1
+// @version      0.2.2
 // @description  Add a floating Keepa price history button to Amazon product pages (Japan, UK, US supported)
 // @author       oshirinap
 // @match        https://www.amazon.co.jp/*dp/*
@@ -67,12 +67,12 @@
     // Floating styling
     Object.assign(a.style, {
       position: "fixed",
-      bottom: "24px",
-      right: "24px",
+      bottom: "22px",
+      right: "22px",
       background: "#232f3e",
       color: "#fff",
       padding: "14px 22px",
-      borderRadius: "28px",
+      borderRadius: "24px",
       boxShadow: "0 2px 12px rgba(0,0,0,0.18)",
       zIndex: "99999",
       fontSize: "1.25em",
