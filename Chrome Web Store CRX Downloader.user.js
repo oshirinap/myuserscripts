@@ -5,6 +5,7 @@
 // @description  Adds a floating CRX download button (lower right corner)
 // @author       oshirinap
 // @match        https://chromewebstore.google.com/detail/*
+// @exclude      https://chromewebstore.google.com/*/error
 // @grant        none
 // @license      MIT License
 // ==/UserScript==
