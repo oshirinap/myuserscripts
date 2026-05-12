@@ -1,3 +1,5 @@
+#### "Disable Input Suggestions and Interruptions.user.js" [![Install directly with a userscript manager](https://img.shields.io/badge/install-userscript-brightgreen)](https://github.com/oshirinap/myuserscripts/raw/main/Disable%20Input%20Suggestions%20and%20Interruptions.user.js)
+Greasemonkey/Tampermonkey userscript that eliminates autocomplete, autocorrect, autocapitalize, that interrupts user keyboard input, and even Google search suggestions.
 #### "VaM Hub Auto Consent.user.js" [![Install directly with a userscript manager](https://img.shields.io/badge/install-userscript-brightgreen)](https://github.com/oshirinap/myuserscripts/raw/main/VaM%20Hub%20Auto%20Consent.user.js)
 Greasemonkey/Tampermonkey userscript that automatically skips the hub.virtamate.com consent prompt.
 #### "Chrome Web Store CRX Downloader.user.js" [![Install directly with a userscript manager](https://img.shields.io/badge/install-userscript-brightgreen)](https://github.com/oshirinap/myuserscripts/raw/main/Chrome%20Web%20Store%20CRX%20Downloader.user.js)
