@@ -5,8 +5,8 @@
 // @description  Automatically sets the vamhubconsent=yes cookie before accessing hub.virtamate.com, skipping the consent prompt.
 // @author       oshirinap
 // @match        *://hub.virtamate.com/*
-// @grant        none
 // @run-at       document-start
+// @grant        none
 // @license      MIT License
 // ==/UserScript==
 
