@@ -1,5 +1,7 @@
+#### "Cursor Hider on Keypress.user.js" [![Install directly with a userscript manager](https://img.shields.io/badge/install-userscript-brightgreen)](https://github.com/oshirinap/myuserscripts/raw/main/Cursor%20Hider%20on%20Keypress.user.js)
+Greasemonkey/Tampermonkey userscript that hides the cursor when keys are pressed and fakes mouse coordinates. The cursor shows again when the mouse is moved or clicked, or when the page is loaded or refreshed.
 #### "Disable Input Suggestions and Interruptions.user.js" [![Install directly with a userscript manager](https://img.shields.io/badge/install-userscript-brightgreen)](https://github.com/oshirinap/myuserscripts/raw/main/Disable%20Input%20Suggestions%20and%20Interruptions.user.js)
-Greasemonkey/Tampermonkey userscript that eliminates autocomplete, autocorrect, autocapitalize, that interrupts user keyboard input, and even Google search suggestions.
+Greasemonkey/Tampermonkey userscript that eliminates autocomplete, autocorrect, autocapitalize, and anything else that interrupts your key input, including Google search suggestions.
 #### "VaM Hub Auto Consent.user.js" [![Install directly with a userscript manager](https://img.shields.io/badge/install-userscript-brightgreen)](https://github.com/oshirinap/myuserscripts/raw/main/VaM%20Hub%20Auto%20Consent.user.js)
 Greasemonkey/Tampermonkey userscript that automatically skips the hub.virtamate.com consent prompt.
 #### "Chrome Web Store CRX Downloader.user.js" [![Install directly with a userscript manager](https://img.shields.io/badge/install-userscript-brightgreen)](https://github.com/oshirinap/myuserscripts/raw/main/Chrome%20Web%20Store%20CRX%20Downloader.user.js)
