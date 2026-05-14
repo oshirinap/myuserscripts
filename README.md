@@ -1,11 +1,11 @@
 #### "Cursor Hider on Keypress.user.js" [![Install directly with a userscript manager](https://img.shields.io/badge/install-userscript-brightgreen)](https://github.com/oshirinap/myuserscripts/raw/main/Cursor%20Hider%20on%20Keypress.user.js)
-Greasemonkey/Tampermonkey userscript that hides the cursor when keys are pressed and fakes mouse coordinates. The cursor shows again when the mouse is moved or clicked, or when the page is loaded or refreshed.
+ Greasemonkey/Tampermonkey userscript that hides the cursor on your key input and spoofs mouse coordinates. Cursor reappears on mouse movement or click, page loads or is refreshed.
 #### "Disable Input Suggestions and Interruptions.user.js" [![Install directly with a userscript manager](https://img.shields.io/badge/install-userscript-brightgreen)](https://github.com/oshirinap/myuserscripts/raw/main/Disable%20Input%20Suggestions%20and%20Interruptions.user.js)
-Greasemonkey/Tampermonkey userscript that eliminates autocomplete, autocorrect, autocapitalize, and anything else that interrupts your key input, including Google search suggestions.
+ Greasemonkey/Tampermonkey userscript that eliminates autocomplete, autocorrect, autocapitalize, and anything else that interrupts your key input, including Google search suggestions.
 #### "VaM Hub Auto Consent.user.js" [![Install directly with a userscript manager](https://img.shields.io/badge/install-userscript-brightgreen)](https://github.com/oshirinap/myuserscripts/raw/main/VaM%20Hub%20Auto%20Consent.user.js)
-Greasemonkey/Tampermonkey userscript that automatically skips the hub.virtamate.com consent prompt.
+ Greasemonkey/Tampermonkey userscript that automatically skips the hub.virtamate.com consent prompt.
 #### "Chrome Web Store CRX Downloader.user.js" [![Install directly with a userscript manager](https://img.shields.io/badge/install-userscript-brightgreen)](https://github.com/oshirinap/myuserscripts/raw/main/Chrome%20Web%20Store%20CRX%20Downloader.user.js)
-Greasemonkey/Tampermonkey userscript that adds a floating button for directly downloading .crx (extensions) from Chrome Web Store.
+ Greasemonkey/Tampermonkey userscript that adds a floating button for directly downloading .crx (extensions) from Chrome Web Store.
 #### "Add Keepa Floating Button.user.js" [![Install directly with a userscript manager](https://img.shields.io/badge/install-userscript-brightgreen)](https://github.com/oshirinap/myuserscripts/raw/main/Add%20Keepa%20Floating%20Button.user.js)
  Greasemonkey/Tampermonkey userscript that adds a floating Keepa price history button to Amazon product pages. Japan, UK, and the US supported.
 #### "YouTube URL Normalizer.user.js" [![Install directly with a userscript manager](https://img.shields.io/badge/install-userscript-brightgreen)](https://github.com/oshirinap/myuserscripts/raw/main/YouTube%20URL%20Normalizer.user.js)
@@ -19,6 +19,6 @@ Greasemonkey/Tampermonkey userscript that adds a floating button for directly do
 _"https://www.youtube.com/supported_browsers?next_url=[VIDEO_URL]"_ nags.
  Also, automatically redirects to the _[VIDEO_URL]_. It may useful if you frequently delete cookies.
 #### License
-This repository is licensed under the [MIT License](LICENSE).
-Feel free to use, modify, and redistribute. No warranty is provided.
-🐌
+ This repository is licensed under the [MIT License](LICENSE).
+ Feel free to use, modify, and redistribute. No warranty is provided.
+ 🐌
