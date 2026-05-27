@@ -36,7 +36,7 @@
         document.cookie = [
             `${COOKIE_NAME}=${COOKIE_VALUE}`,
             `path=/`,
-            `domain=hub.virtamate.com`
+            `domain=virtamate.com`
         ].join('; ');
     }
 
