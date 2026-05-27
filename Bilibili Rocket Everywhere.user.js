@@ -30,8 +30,8 @@
   const SEQ_IGNITE = [1, 2, 3, 4, 5];
   const FRAME_MS_LAUNCH = 70;   // ms per frame during launch
 
-  const SHOW_AFTER    = 1440;   // px scrolled before button appears
-  const BOTTOM_OFFSET = 96;
+  const SHOW_AFTER    = 700;   // px scrolled before button appears
+  const BOTTOM_OFFSET = 100;
   const RIGHT_OFFSET  = 24;
 
   // *** Styles ***
