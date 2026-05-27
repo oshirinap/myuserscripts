@@ -1,3 +1,5 @@
+#### "Bilibili Rocket Everywhere.user.js" [![Install directly with a userscript manager](https://img.shields.io/badge/install-userscript-brightgreen)](https://github.com/oshirinap/myuserscripts/raw/main/Bilibili%20Rocket%20Everywhere.user.js)
+ Greasemonkey/Tampermonkey userscript that adds bilibili (哔哩哔哩) 22 and 33 riding rocket scroll-to-top button to every page.
 #### "Cursor Hider on Keypress.user.js" [![Install directly with a userscript manager](https://img.shields.io/badge/install-userscript-brightgreen)](https://github.com/oshirinap/myuserscripts/raw/main/Cursor%20Hider%20on%20Keypress.user.js)
  Greasemonkey/Tampermonkey userscript that hides the cursor on your key input and spoofs mouse coordinates. Cursor reappears on mouse movement or click, page loads or is refreshed.
 #### "Disable Input Suggestions and Interruptions.user.js" [![Install directly with a userscript manager](https://img.shields.io/badge/install-userscript-brightgreen)](https://github.com/oshirinap/myuserscripts/raw/main/Disable%20Input%20Suggestions%20and%20Interruptions.user.js)
