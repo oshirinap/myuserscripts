@@ -7,7 +7,6 @@
 // @match        *://*/*
 // @exclude      *bilibili.com/*
 // @grant        none
-// @license      MIT License
 // @run-at       document-end
 // ==/UserScript==
 
