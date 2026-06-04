@@ -15,7 +15,17 @@
 
     function getExtensionId() {
         const parts = window.location.pathname.split('/');
-        return parts.pop() || parts.pop();
+        // Extension ID is typically a 32-character alphanumeric string
+        for (let i = 0; i < parts.length; i++) {
+            if (parts[i] === 'detail' && i + 1 < parts.length) {
+                const candidate = parts[i + 1];
+                // Check if it looks like an extension ID (32 chars, lowercase letters/numbers)
+                if (/^[a-z0-9]{32}$/.test(candidate)) {
+                    return candidate;
+                }
+            }
+        }
+        return null;
     }
 
     function getChromeVersion() {
