@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Chrome Web Store CRX Downloader
 // @namespace    https://github.com/oshirinap
-// @version      0.2
+// @version      0.3
 // @description  Adds a floating CRX download button (lower right corner)
 // @author       oshirinap
 // @match        https://chromewebstore.google.com/detail/*
@@ -28,8 +28,6 @@
     }
 
     function createFloatingButton(crxUrl) {
-        if (document.getElementById('crx-download-btn')) return;
-
         const btn = document.createElement('div');
         btn.id = 'crx-download-btn';
         btn.innerText = '⬇ CRX';
@@ -43,7 +41,7 @@
             background: '#4CAF50',
             color: '#fff',
             fontSize: '1.25em',
-            fontFamily: "sans-serif",
+            fontFamily: 'sans-serif',
             fontWeight: 'bold',
             borderRadius: '24px',
             cursor: 'pointer',
@@ -70,26 +68,26 @@
 
     function init() {
         const extId = getExtensionId();
+
+        // Always remove stale button first — ensures SPA navigation gets a fresh URL
+        document.getElementById('crx-download-btn')?.remove();
+
         if (!extId) return;
 
         const version = getChromeVersion();
         const crxUrl = buildCRXUrl(extId, version);
-
         createFloatingButton(crxUrl);
     }
 
-    // Handle SPA navigation (Chrome Web Store uses client-side routing)
+    // Lightweight URL-change polling instead of a hot MutationObserver
     let lastUrl = location.href;
-    const observer = new MutationObserver(() => {
+    setInterval(() => {
         if (location.href !== lastUrl) {
             lastUrl = location.href;
             setTimeout(init, 500);
         }
-    });
+    }, 300);
 
-    observer.observe(document.body, { childList: true, subtree: true });
-
-    // Initial run
     window.addEventListener('load', init);
 
 })();
