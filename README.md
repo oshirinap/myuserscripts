@@ -1,5 +1,5 @@
 #### "GitHub Downloads → aria2 RPC" [![Install directly with a userscript manager](https://img.shields.io/badge/install-userscript-brightgreen)](https://github.com/oshirinap/myuserscripts/raw/main/GitHub%20Downloads%20%E2%86%92%20aria2%20RPC.user.js)
- Silently sends GitHub file downloads (release assets, archives, attachments, gist files…) to aria2 JSON-RPC instead of the browser. Alt+click downloads normally.
+ Greasemonkey/Tampermonkey userscript that sends GitHub file downloads (release assets, archives, attachments, gist files…) to your local aria2 JSON-RPC instead of the browser, without user interactions.
 #### "Bilibili Rocket Everywhere.user.js" [![Install directly with a userscript manager](https://img.shields.io/badge/install-userscript-brightgreen)](https://github.com/oshirinap/myuserscripts/raw/main/Bilibili%20Rocket%20Everywhere.user.js)
  Greasemonkey/Tampermonkey userscript that adds bilibili (哔哩哔哩) 22 and 33 rocket ride scroll-to-top button to every page. Since this script uses external resources, for educational purposes only.
 #### "Cursor Hider on Keypress.user.js" [![Install directly with a userscript manager](https://img.shields.io/badge/install-userscript-brightgreen)](https://github.com/oshirinap/myuserscripts/raw/main/Cursor%20Hider%20on%20Keypress.user.js)
