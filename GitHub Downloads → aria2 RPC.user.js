@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GitHub Downloads → aria2 RPC
 // @namespace    https://github.com/oshirinap
-// @version      1.0
+// @version      1.01
 // @description  Silently sends GitHub file downloads (release assets, archives, attachments, gist files…) to aria2 JSON-RPC instead of the browser. Alt+click downloads normally.
 // @author       oshirinap
 // @match        https://github.com/*
@@ -185,7 +185,7 @@
     toast(`${label}: ${get(key) ? 'ON' : 'OFF'}`, 'info', 2000);
   };
 
-  GM_registerMenuCommand('Toggle aria2 interception', flip('Interception', 'enabled'));
+//GM_registerMenuCommand('Toggle aria2 interception', flip('Interception', 'enabled'));
   GM_registerMenuCommand('Set RPC URL', ask('aria2 RPC URL (include /jsonrpc):', 'rpcUrl'));
   GM_registerMenuCommand('Set RPC secret', ask('aria2 RPC secret (blank for none):', 'secret'));
   GM_registerMenuCommand('Set download directory', ask('Download directory (blank = aria2 default):', 'dir'));
